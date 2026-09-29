@@ -1,0 +1,8 @@
+von_ban_dau = float(input("Nhập tổng vốn ban đầu: "))
+gia_tri_ban_ra = float(input("Nhập tổng giá trị bán ra: "))
+
+loi_nhuan_rong = gia_tri_ban_ra - von_ban_dau
+roi = loi_nhuan_rong / von_ban_dau * 100
+
+print("Lợi nhuận ròng:", loi_nhuan_rong)
+print("ROI (%):", round(roi, 2))
